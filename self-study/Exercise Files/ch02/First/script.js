@@ -1,1 +1,2 @@
-alert("Hello World");
+var name = prompt("What?")
+alert("Hello, " + name);

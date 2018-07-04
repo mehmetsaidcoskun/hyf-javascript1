@@ -1,0 +1,186 @@
+1.
+var c;
+c = "I am a";
+c = c + " String!";
+console.log(c);
+
+> "I am a String!"
+
+
+2.
+5 % 2 = 1 because
+Math.floor(5 / 2) = 2 (Quotient)
+2 * 2 = 4
+5 - 4 = 1 (Remainder)
+
+
+3.
+var myVar = 1;
+myVar += 5;
+console.log(myVar); // Returns 6
+
+
+4.
+myVar = myVar * 5; // same as
+myVar *= 5;
+
+
+5.
+In JavaScript, you can escape a quote from 
+considering it as an end of string quote by 
+placing a backslash (\) in front of the quote.
+
+var sampleStr = "Alan said, \"Peter is 
+learning JavaScript\".";
+// return: Alan said, "Peter is learning JavaScript".
+
+
+6.
+goodStr = ' Jake asks Finn, "Hey, let\'s go on an adventure?" '; 
+badStr = 'Finn responds, "Let's go!"'; // Throws an error
+
+
+7.
+Code	Output
+\'	single quote
+\"	double quote
+\\	backslash
+\n	newline
+\r	carriage return
+\t	tab
+\b	backspace
+\f	form feed
+
+
+8.
+We can also use the += operator to concatenate 
+a string onto the end of an existing string variable. 
+This can be very helpful to break a long string 
+over several lines.
+
+var myStr = "This is the first sentence. ";
+
+myStr += "This is the second."
+
+
+9.
+var myName = "Mehmet Said";
+console.log(myName.length);
+
+10.
+var lastName = "Lovelace";
+
+
+firstLetterOfLastName = lastName[0];
+>L
+
+11.
+In JavaScript, String values are immutable, 
+which means that they cannot be altered once created.
+var myStr = "Bob";
+myStr[0] = "J";
+cannot change the value of myStr to "Job", because the 
+contents of myStr cannot be altered. Note that this does 
+not mean that myStr cannot be changed, just that the 
+individual characters of a string literal cannot be changed. 
+
+12.
+var lastName = "Lovelace";
+
+
+lastLetterOfLastName = lastName[lastName.length - 1];
+>e
+
+13.
+function wordBlanks
+	(myNoun, myAdjective, myVerb, myAdverb) {
+
+		var result = 
+		"This is my " + myNoun + 
+		", it is so " + myAdjective + 
+		". Today " + myVerb + " very " + 
+		myAdverb + ".";
+	return result;
+}
+
+
+
+function
+ wordBlanks("dog", "big", "ran", "quickly");
+
+14.
+Unlike strings, the entries of arrays are mutable 
+and can be changed freely.
+var myArray = [15, 23, 42];
+myArray[0] = 11;  // in return, myArray=[11, 23, 42]
+
+15.
+var arr = [
+  [1,2,3],
+  [4,5,6],
+  [7,8,9],
+  [[10,11,12], 13, 14]
+];
+arr[3]; // equals [[10,11,12], 13, 14]
+arr[3][0]; // equals [10,11,12]
+arr[3][0][1]; // equals 11
+
+16.
+An easy way to append data to the end of an array is 
+via the push() function.
+var arr = [1,2,3];
+arr.push(4);
+// arr is now [1,2,3,4]
+
+17.
+.pop() is used to "pop" a value off of the end of 
+an array. We can store this "popped off" value by 
+assigning it to a variable. In other words, .pop() 
+removes the last element from an array and returns 
+that element.
+
+var threeArr = [1, 4, 6];
+var oneDown = threeArr.pop();
+console.log(oneDown); // Returns 6
+console.log(threeArr); // Returns [1, 4]
+
+18.
+.shift() works just like .pop(), except it removes the 
+first element instead of the last.
+
+19.
+.unshift() works exactly like .push(), but instead of adding 
+the element at the end of the array, unshift() adds 
+the element at the beginning of the array.
+
+20.SHOPPING LIST
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
