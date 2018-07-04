@@ -1,3 +1,0 @@
-if ( condition ) { command };
-if ( a < b ) { alert("a is less than b")};
-
