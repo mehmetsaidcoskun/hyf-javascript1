@@ -146,4 +146,118 @@ alert(x); // in return, 500 will appear as well
 </body>
 
 12.
+//while loop
+var a = 1;		// set up the index
+while ( a < 10 ) {	// check the condition
+	console.log(a);
+	a++;	// increment index
+} return 9
+
+13.
+var amount = 0;
+
+
+var i = 1;
+
+while (i<10) {
+
+	amount += 10;
+
+	i++;
+
+}
+
+console.log("amount is " + amount);
+
+// return amount is 90
+
+14.
+// for loop
+for (var i = 1; 	i < 10;		i++) {
+//setup index       //check condition   // increment index
+	// do stuff
+	// do stuff
+}
+
+15.
+// do/while statement
+var a = 1;
+do {
+	// your code;
+	a++;
+} while (a<10); 
+
+// big difference between while loop and do/while
+statement is your code in do/while st. will always
+happen at least once no matter check condition is
+true or or false. But in while loop, if the check 
+condition is false, your code will never happen.
+
+16.
+var a = "55"; // typeof a > string
+var b = Number(a); // typeof b > number
+
+var c = 66; // typeof c > number
+var d = String(c); // typeof d > string
+
+17.
+if ( isNaN(d) ) {
+	console.log("it is not a number.");
+} // return it is not a number.
+// isNaN(...) is a builtin function
+
+18.
+var phrase = "Simple Phrase";
+console.log( phrase.toUpperCase() );
+// return SIMPLE PHRASE
+
+19.
+var str1 = "Hello";
+var str2 = "hello";
+// obviously str1 != str2
+
+// but how can you make a comparison without
+// case sensitive?
+
+str1.toLowerCase() == str2.toLowerCase();
+// that's it ****
+
+20.
+var phrase = "I am very happy.";
+var position = phrase.indexOf("very");
+console.log(position);
+// return 5
+
+21.
+REGULAR EXPRESSIONS
+var myRE = /hello/;
+// to define regular expressions you need to put 
+forward slash on the head and end of the expression.
+
+// or 
+
+var myRE = new RegExp("hello");
+
+// but first way is shorter and better.
+
+22.
+a.test(b) > a belongs to b
+
+23.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

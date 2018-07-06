@@ -16,3 +16,5 @@ console.log("The type of my variable d is: " + typeof d);
 if (typeof a == typeof b) {
 	console.log("SAME TYPE");}
 else {  console.log("NOT SAME TYPE");}
+
+

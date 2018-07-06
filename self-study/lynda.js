@@ -61,6 +61,48 @@ simpleFunction();
 console.log(x);
 */
 
+/*
 var myName = "Mehmet Said";
 console.log(myName.length);
+*/
+
+/*
+var amount = 0;
+
+var i = 1;
+while (i<10) {
+	amount += 10;
+	i++;
+}
+console.log("amount is " + amount);
+*/
+
+/*
+var b = 0;
+var a = 100;
+
+
+do {
+	b += 10;
+	a++
+} while ( a<5);
+
+console.log(b);
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

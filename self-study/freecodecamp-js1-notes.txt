@@ -155,6 +155,23 @@ the element at the beginning of the array.
 
 20.SHOPPING LIST
 
+21.
+function myTest() {
+  var loc = "foo";
+  console.log(loc);
+}
+myTest(); // logs "foo"
+console.log(loc); // loc is not defined
+// Variables which are declared within a function, 
+as well as the function parameters have local scope. 
+That means, they are only visible within that function.
+
+22.
+It is possible to have both local and global variables with 
+the same name. When you do this, the local variable takes 
+precedence over the global variable.
+
+23.
 
 
 
