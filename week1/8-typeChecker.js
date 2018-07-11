@@ -13,8 +13,23 @@ console.log("The type of my variable b is: " + typeof b);
 console.log("The type of my variable c is: " + typeof c);
 console.log("The type of my variable d is: " + typeof d);
 
-if (typeof a == typeof b) {
-	console.log("SAME TYPE");}
-else {  console.log("NOT SAME TYPE");}
+var allVar = [a, b, c, d];
+for (k = 1; k < allVar.length; k++) {
+	if (typeof allVar[k - 1] == typeof allVar[k]) {
+		console.log("SAME TYPE");
+	} else { console.log("NOT SAME TYPE"); };
+
+	if (typeof allVar[k - 1] == typeof allVar[k + 1]) {
+		console.log("SAME TYPE");
+	} else if (k + 1 >= allVar.length) {
+
+	} else { console.log("NOT SAME TYPE"); };
+
+	if (typeof allVar[k - 1] == typeof allVar[k + 2]) {
+		console.log("SAME TYPE");
+	} else if (k + 2 >= allVar.length) {
+
+	} else { console.log("NOT SAME TYPE"); };
+}
 
 

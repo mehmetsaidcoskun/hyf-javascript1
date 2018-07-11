@@ -7,8 +7,10 @@ var a = Math.round(z);
 console.log(a);
 
 var biggerOne;
-if (z>=a) {
-	biggerOne = z;} else {
-		biggerOne = a;}
+if (z >= a) {
+	biggerOne = z;
+} else {
+	biggerOne = a;
+}
 
 console.log(biggerOne);
