@@ -244,6 +244,92 @@ var myRE = new RegExp("hello");
 a.test(b) > a belongs to b
 
 23.
+to manipulate a web page by javascript
+a. add script src to html file
+b. on js page, create:
+	var variableName = document.getElementById("nameOfId");
+	variableName.innerHTML = "Wow, a new headline!";
+	// this will change the element in webpage
+
+24.
+ events - there are lots of event
+for example: .onclick event
+ myElement.onclick = function () { };
+
+25.
+The JavaScript community considered this friendliness 
+to be a mistake and with ES5 introduced strict mode: 
+place the string 'use strict'; at the top of your file. This 
+now causes our code to fail with a run-time error when 
+forgetting to 'declare' our variables.
+
+'use strict';
+a = 'Hello'; // produces: ReferenceError: a is not defined
+console.log(a);
+
+26.
+tracing flow of js code is very important to
+
+27.
+const myNumbers = [1, 2, 3];
+
+for (const myNumber of myNumbers) {
+	console.log(myNumber);
+}
+// return
+// 1
+// 2
+// 3
+//If you need to use a for loop involving arrays, 
+//this will often be your first choice.
+
+28.
+const obj = {
+  a: 10,
+  b: 'test'
+}
+
+// for...in
+for (const key in obj) {
+  console.log(obj[key])
+}
+
+// equivalent for...of
+for (const key of Object.keys(obj)) {
+  console.log(obj[key])
+}
+
+29.
+let obj = {name: 'John', age: 24};
+//This object has two properties: name and age. 
+//The "value" of the property name is the 
+//string 'John'. The "value" of the property age is the 
+//number 24.
+
+//When accessing object properties, you can 
+//use the dot-notation: obj.name or the 
+//bracket-notation: obj["name"].
+
+30.
+//Just like with arrays, you can also use a variable 
+//to access properties, as long as these variables are 
+//strings. In this case you cannot use the dot-notation!
+
+const ageKey = 'age';
+console.log(obj[ageKey]); // -> 24
+
+31.
+//Ternary operator
+//condition ? expr1 : expr2
+
+const conditionOfCar = age < 1 ? 'new' : 'used';
+
+//The conditionOfCar variable will be assigned the 
+//string 'new' if the age < 1 condition holds true, 
+//otherwise it is assigned the string 'used'.
+
+
+
 
 
 
